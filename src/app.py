@@ -19,7 +19,7 @@ todos = [
 ]
 
 
-#GET
+# GET
 @app.route('/todos', methods=['GET'])
 def hello_world():
     json_text = jsonify(todos)
